@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolatez</title>
+  
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+         }
+        h1{
+            font-size: 53px;
+            margin: 0;
+            margin-bottom: auto;
+            color: aliceblue;
+        }
+        h2{
+            color: aliceblue;
+            text-align: center;
+            margin-top: 3px;
+            font-size: 35px;
+        }
+        p{
+            font-size: 30px;
+        }
+
+        header{
+            color: rgb(10, 10, 10);
+            background-color: rgb(182, 30, 30);
+            padding: 0px 0;
+            text-align: center;
+            margin: 10px;
+        }
+        .video-container{
+            position: fixed;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        content{
+            position: fixed;
+            z-index: 1;
+            color: aliceblue;
+            text-align: center;
+            margin-top: 50px;
+            top: 50px;
+            left: 50px;
+            transform: translate(-50,-50);
+            font-size: 2em;
+        }
+
+        .content-section{
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin:auto;
+            margin-top: 50px;
+            overflow: hidden;
+        
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }   
+        
+        nav a{
+            color: rgb(253, 253, 253);
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: rgb(19, 2, 2);
+            border-radius: 5px;
+        }
+        nav a:hover{
+            background-color: aliceblue;
+        }
+        footer{
+            background-color: rgb(78, 78, 78);
+            color: aliceblue;
+            text-align: center;
+            padding: 50px 1;
+            position: relative;
+            bottom: 0;
+            width: fit-content(90%);
+        }
+        #feat{
+            font-style: italic;
+            color: aliceblue;
+        }
+        #price{
+            font-style: italic;
+            color: aliceblue;
+        }
+        #rev{
+            font-style: italic;
+            color: aliceblue;
+        }
+        #cont{
+            font-style: italic;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chocolate ala Queen</h1>
+    <nav>   
+        <a href="#feat">Features</a>
+        <a href="#price">Pricing</a>
+        <a href="#rev">Reviews</a>
+        <a href="#cont">Contact</a>
+    </nav>
+<body>
+        <video autoplay muted loop id="video-container">
+            <source src="c:\Users\StudentPc41\Downloads\Catequista_Prefi\chocolate splash stock video clip no copyright.mp4.crdownload" type="video/mp4"> 
+            </video>
+    <div class="content-section" id="feat">
+        <h2 class="feat">Features!</h2>
+        <p id="feat">Tired? Stressed? Feeling down? They tell you to work harder, stay strong, and push through, but what if the real answer is simpler? Chocolate!. They don’t want you to know how one bite can turn a bad day around, how its rich, velvety taste melts stress away, or how its sweetness fuels creativity and joy. Why settle for boredom and fatigue when the solution is right in your hands? this is the sweet rebellion you deserve.</p>
+        <img src="c:\Users\StudentPc41\Downloads\Catequista_Prefi\2.jpg" width="300">
+        <img src="c:\Users\StudentPc41\Downloads\Catequista_Prefi\3.jpg" width="300">
+        <img src="c:\Users\StudentPc41\Downloads\Catequista_Prefi\4.jpg" width="300">
+        <img src="c:\Users\StudentPc41\Downloads\Catequista_Prefi\1.jpg" width="300">
+        <img src="c:\Users\StudentPc41\Downloads\Catequista_Prefi\6.jpg" width="300">
+        <img src="c:\Users\StudentPc41\Downloads\Catequista_Prefi\5.jpg" width="300">
+
+    </div>
+
+    <div class="content-section" id="price">
+        <h2>Pricing</h2>
+            <p id="price"> Dark Chocolate – 150 pesos  <br>
+            
+                Milk Chocolate – 150 pesos  <br>
+                
+                White Chocolate – 150 pesos  <br>
+                
+                Ruby Chocolate – 250 pesos  <br>
+                
+                Single-Origin Chocolate –350 pesos  <br>
+                Couverture Chocolate – 350 pesos  <br>
+
+               
+        </div>
+    </div>
+
+    <div class="content-section" id="rev">
+        <h2>Reviews</h2>
+        <p id="rev">
+            ⭐⭐⭐⭐⭐ "Absolutely delicious! The chocolate is rich, smooth, and melts perfectly in the mouth. Every bite is pure bliss! I can’t get enough of it!"<br><br>
+
+            ⭐⭐⭐⭐⭐ "The perfect balance of sweetness and creaminess! It instantly lifts my mood. Definitely one of the best chocolates I’ve ever tasted!"  <br><br>
+            
+            ⭐⭐⭐⭐⭐ "If you’re a chocolate lover, you NEED to try this! It’s indulgent, satisfying, and has the perfect texture.I’ll be coming back for more!"<br>  <br>
+            
+            ⭐⭐⭐⭐⭐ "A chocolate experience like no other! The quality is top-notch, and the flavor is heavenly. It’s my go-to treat whenever I need a pick-me-up!"<br><br>
+            
+            ⭐⭐⭐⭐⭐ "So addictive! Each bite is packed with rich cocoa goodness.<br> Whether it’s for a special occasion or just a simple treat, this chocolate never disappoints!"</p>
+
+        </div>
+
+    <div class="content-section" id="cont">
+        <h2>Order Here!</h2>
+        <form>
+<input type="text" placeholder="Enter Your Name" required>
+<input type="email" placeholder="Enter Your Email" required>
+<input placeholder="Order,ex: Dark Chocolate 2" required>
+<button type="Submit" >Send Order Request</button>
+        </form>>
+            
+    
+
+        </div>
+    </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 I love Chocolatez. All rights reserved.</p>
+    </footer>
+</body>
+</html>
